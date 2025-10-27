@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Activity Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Login Section -->
+        <section class="login-section">
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginMessage"></p>
+        </section>
+
+        <!-- Contact Links Section -->
+        <section class="contact-section">
+            <h2>Get In Touch</h2>
+            <a href="mailto:youremail@example.com" class="contact-link">📧 Email Us</a>
+            <a href="https://wa.me/yourphonenumber" class="contact-link" target="_blank">💬 WhatsApp Us</a>
+            <!-- Replace 'yourphonenumber' with your full number, country code included, no spaces or symbols. e.g., 15551234567 -->
+        </section>
+
+        <!-- Activities Section -->
+        <section class="activities-section">
+            <h2>All Activities</h2>
+            <ul id="activitiesList">
+                <!-- Activities will be listed here by JavaScript -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
